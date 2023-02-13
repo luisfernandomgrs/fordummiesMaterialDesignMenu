@@ -12,5 +12,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="popupTheme">@style/PopupMenutheme</item>
+
+    </style>
+    <style name="PopupMenutheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
     </style>
 </resources>
